@@ -1,0 +1,197 @@
+.LocalInfo {
+    height: max-content;
+    width: 100%;
+}
+
+.info-header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* padding: 20px; */
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-general{
+    width: 100%;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/corrida-9e963.appspot.com/o/estabelecimento.png?alt=media&token=1d07bb77-26ba-424a-b521-c2635c69734a');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-container {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+.nome-and-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.nome-and-info .title {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.ver-mais-container {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.ver-mais-container span {
+    font-size: 12px;
+    gap: 3px;
+}
+
+.ver-mais-container a {
+    color: rgba(0, 0, 0, 0.664);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.icon-container {
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 100%;
+}
+
+.open-time-order {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.555);
+    gap: 5px;
+}
+
+.icon-box {
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box img {
+    width: 100%;
+}
+
+.excecao1 {
+    width: 110% !important;
+}
+
+.open-time-order-geral {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.opend {
+    color: rgba(98, 146, 25, 0.705);
+}
+
+.closed {
+    color: rgba(182, 17, 17, 0.774);
+}
+
+.order-time a {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.search-area{
+    margin-top: 20px;
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(to bottom, white 80%, rgba(0, 0, 0, 0.13));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.062); */
+}
+
+.search-area input{
+    height: 35px;
+    width: 250px;
+    border-radius: 8px;
+    border: 0;
+    padding-left: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.329);
+}
+
+
+.items{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.section-name{
+    height: 30px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.144);
+    display: flex;
+    align-items: end;
+    padding: 5px 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.sectionName{
+    width: 100%;
+    text-align: start;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+    font-weight: 600;
+}
+
+.drop-btn{
+    cursor: pointer;
+}
+
+.mais-vendidos-section{
+    display: block;
+}
+
+.tacos-section{
+    display: block;
+}
+
+.d-none{
+    display: none;
+}

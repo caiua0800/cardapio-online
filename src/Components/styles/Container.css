@@ -1,0 +1,9 @@
+.Container{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(252, 252, 252);
+    box-sizing: border-box;
+    color: rgb(2, 2, 2);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}

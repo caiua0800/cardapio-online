@@ -5,7 +5,7 @@ import { formatNumber, checkStatus } from '../utils/utils';
 import ItemPage from "./ItemPage";
 
 export default function LocalPage(props) {
-    const { img, bebidas, comidas, localInfo } = props;
+    const { img, bebidas, comidas, localInfo, adicionais } = props;
 
     const [opend, setOpend] = useState(true);
     const [OpcoesAllMenu, setOpcoesAllMenu] = useState(0);
@@ -49,10 +49,9 @@ export default function LocalPage(props) {
         setSelectedItem(item);
     };
 
-
     return (
         <div className="LocalPage">
-            {selectedItem && <ItemPage item={selectedItem} />}
+            {selectedItem && <ItemPage item={selectedItem} onClose={() => setSelectedItem(null)} adicionais={adicionais} />}
             <div className="info-header">
                 <div className="container-general">
                     <div className="logo-container">

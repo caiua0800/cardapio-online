@@ -38,7 +38,7 @@
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 8px;
 
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .item-img-box img{
@@ -49,15 +49,15 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.733);
-    text-align: center;
+    text-align: start;
 }
 
 .item-desc{
     margin-top: 5px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.397); 
     text-align: justify;
@@ -65,12 +65,11 @@
 }
 
 .item-valor{
-    text-align: center;
-
+    text-align: start;
+    font-weight: normal;
     width: 100%;
     margin-top: 15px;
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.726);
+    color: rgba(0, 0, 0, 0.753);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.021);
 }
